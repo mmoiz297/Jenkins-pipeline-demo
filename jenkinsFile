@@ -27,5 +27,10 @@ pipeline {
                 echo 'releasing'
             }
         }
+        stage('hotfix') {
+            steps {
+                echo 'hotfixing'
+            }
+        }
     }
 }
